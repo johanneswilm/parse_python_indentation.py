@@ -1,0 +1,17 @@
+# This is a test data file
+# with Python-style indentation markup.
+# It should ignore all comments
+green:
+    follow # And it should figure out how many spaces make out one indentation level from the first indentation it finds.
+    blue
+    yellow
+    fishing
+    snowman:
+        gardening
+    street:
+        great
+
+religion
+flags
+houses:
+    suffering
