@@ -1,3 +1,5 @@
+import warnings
+
 def parse_python_indentation(raw_python_file_contents):
     raw_lines = raw_python_file_contents.split('\n')
     cleaned_lines = []
@@ -47,6 +49,6 @@ def parse_python_indentation(raw_python_file_contents):
         })
 
     if error:
-        print('Python formatting with errors!')
+        warnings.warn('Python formatting with errors!', UserWarning)
 
     return python_output
