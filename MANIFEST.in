@@ -1,0 +1,3 @@
+include DESCRIPTION.rst
+include test.py
+include *.data
